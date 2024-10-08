@@ -12,6 +12,48 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
+    /*
+     * zdefiniuj metodę z widokiem Calculator, dodaj link nawigacijny do teh metody
+     */
+    public IActionResult Calculator(string op, double? x, double? y)
+    {
+        /*var op = Request.Query["op"];
+        var x = double.Parse(Request.Query["x"]);
+        var y = double.Parse(Request.Query["y"]);*/
+
+
+        if (x is null || y is null)
+        {
+            ViewBag.ErrorMessage = "Niepoprawny format parametru x lub y";
+            return View("CalculatorError");
+        }
+        
+        
+        switch (op)
+        {
+            case "add":
+                ViewBag.Result = x + y;
+                break;
+            case "sub":
+                ViewBag.Result = x - y;
+                break;
+            case "mul":
+                ViewBag.Result = x * y;
+                break;
+            case "div":
+                ViewBag.Result = x / y;
+                break;
+            default:
+                ViewBag.ErrorMessage = "Nieznany operator!";
+                return View("CalculatorError");
+                
+        }
+        return View();
+    }
+    public IActionResult About()
+    {
+        return View();
+    }
 
     public IActionResult Index()
     {
