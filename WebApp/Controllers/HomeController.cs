@@ -13,40 +13,55 @@ public class HomeController : Controller
         _logger = logger;
     }
     /*
-     * zdefiniuj metodę z widokiem Calculator, dodaj link nawigacijny do teh metody
+     * Zadanie 1: zdefiniuj metodę z widokiem Calculator, dodaj link nawigacijny do teh metody
+     Zadanie 2: dodaj do kalkulatora operatoro pow, ktory podnoszi x do potegi y i funkcje sin ktora oblicz sin(x), y jest zbędne 
      */
-    public IActionResult Calculator(string op, double? x, double? y)
+    public IActionResult Calculator(Operator? op, double? x, double? y)
     {
         /*var op = Request.Query["op"];
         var x = double.Parse(Request.Query["x"]);
         var y = double.Parse(Request.Query["y"]);*/
 
 
-        if (x is null || y is null)
+        if (op is Operator.Sin && x is null)
+        {
+            ViewBag.ErrorMessage = "Błąd";
+            return View("Calculator");
+        }
+        
+        if (x is null || y is null )
         {
             ViewBag.ErrorMessage = "Niepoprawny format parametru x lub y";
             return View("CalculatorError");
         }
-        
+
+        if (op is null)
+        {
+            ViewBag.ErrorMessage = "Nieznany operator!";
+            return View("CalculatorError");
+        }
         
         switch (op)
         {
-            case "add":
+            case Operator.Add:
                 ViewBag.Result = x + y;
                 break;
-            case "sub":
+            case Operator.Div:
                 ViewBag.Result = x - y;
                 break;
-            case "mul":
+            case Operator.Mul:
                 ViewBag.Result = x * y;
                 break;
-            case "div":
+            case Operator.Sub:
                 ViewBag.Result = x / y;
                 break;
-            default:
-                ViewBag.ErrorMessage = "Nieznany operator!";
-                return View("CalculatorError");
+            case Operator.Pow:
+                ViewBag.Result = Math.Pow(x.Value, y.Value);
+                break;
+            case Operator.Sin:
                 
+                ViewBag.Result = Math.Sin(x.Value);
+                break;
         }
         return View();
     }
@@ -70,4 +85,9 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+}
+
+public enum Operator
+{
+    Add, Sub, Mul, Div, Pow, Sin
 }
