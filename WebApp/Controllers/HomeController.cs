@@ -23,11 +23,19 @@ public class HomeController : Controller
         var y = double.Parse(Request.Query["y"]);*/
 
 
-        if (op is Operator.Sin && x is null)
+        if (op == Operator.Sin)
         {
-            ViewBag.ErrorMessage = "Błąd";
-            return View("Calculator");
+            if (x is null)
+            {
+                ViewBag.ErrorMessage = "Niepoprawny format parametru x.";
+                return View("CalculatorError");
+            }
+    
+            ViewBag.Result = Math.Sin(x.Value);
+            return View();
         }
+
+
         
         if (x is null || y is null )
         {
