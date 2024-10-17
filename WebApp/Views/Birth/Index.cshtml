@@ -1,0 +1,18 @@
+﻿@model WebApp.Models.Birth
+
+<form asp-action="Submit" method="post">
+    <div>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="Name" value="@Model?.Name" />
+    </div>
+    <div>
+        <label for="birthDate">Дата рождения:</label>
+        <input type="date" id="birthDate" name="BirthDate" value="@Model?.BirthDate.ToString("yyyy-MM-dd")" />
+    </div>
+    <button type="submit">Отправить</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
