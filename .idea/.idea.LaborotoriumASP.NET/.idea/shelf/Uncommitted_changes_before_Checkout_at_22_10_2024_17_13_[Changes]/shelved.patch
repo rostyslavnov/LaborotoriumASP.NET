@@ -1,0 +1,26 @@
+Index: WebApp/Views/Birth/Index.cshtml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@model WebApp.Models.Birth\r\n\r\n<form asp-action=\"Submit\" method=\"post\">\r\n    <div>\r\n        <label for=\"name\">Имя:</label>\r\n        <input type=\"text\" id=\"name\" name=\"Name\" value=\"@Model?.Name\" />\r\n    </div>\r\n    <div>\r\n        <label for=\"birthDate\">Дата рождения:</label>\r\n        <input type=\"date\" id=\"birthDate\" name=\"BirthDate\" value=\"@Model?.BirthDate.ToString(\"yyyy-MM-dd\")\" />\r\n    </div>\r\n    <button type=\"submit\">Отправить</button>\r\n</form>\r\n\r\n@if (ViewBag.Message != null)\r\n{\r\n    <p>@ViewBag.Message</p>\r\n}
+===================================================================
+diff --git a/WebApp/Views/Birth/Index.cshtml b/WebApp/Views/Birth/Index.cshtml
+--- a/WebApp/Views/Birth/Index.cshtml	
++++ b/WebApp/Views/Birth/Index.cshtml	
+@@ -2,14 +2,14 @@
+ 
+ <form asp-action="Submit" method="post">
+     <div>
+-        <label for="name">Имя:</label>
++        <label for="name">Imię:</label>
+         <input type="text" id="name" name="Name" value="@Model?.Name" />
+     </div>
+     <div>
+-        <label for="birthDate">Дата рождения:</label>
++        <label for="birthDate">Data urodzienia:</label>
+         <input type="date" id="birthDate" name="BirthDate" value="@Model?.BirthDate.ToString("yyyy-MM-dd")" />
+     </div>
+-    <button type="submit">Отправить</button>
++    <button type="submit">Wysłać</button>
+ </form>
+ 
+ @if (ViewBag.Message != null)
