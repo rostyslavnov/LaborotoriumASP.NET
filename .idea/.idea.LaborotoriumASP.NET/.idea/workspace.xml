@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment=")" />
+    <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment=")">
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/Services/ContactEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/Services/EFConctactService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lab4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,12 +42,12 @@
     &quot;assignee&quot;: &quot;rostyslavnov&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rostyslavnov/LaborotoriumASP.NET.git",
-    "accountId": "8c03ebbe-5b9d-45d5-b60a-a9576422cf12"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rostyslavnov/LaborotoriumASP.NET.git&quot;,
+    &quot;accountId&quot;: &quot;8c03ebbe-5b9d-45d5-b60a-a9576422cf12&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/rostyslavnovytskyi/RiderProjects/LaborotoriumASP.NET/WebApp/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -57,7 +67,7 @@
     ".NET Launch Settings Profile.WebApp: http.executor": "Run",
     ".NET Launch Settings Profile.WebApp: https.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lab4",
+    "git-widget-placeholder": "lab5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

@@ -60,3 +60,5 @@ public class HomeController : Controller
     }
 
 }
+
+/*dotnet tool install --global dotnet-ef*/
