@@ -10,13 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_2024_17_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_10_2024_17_13__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +34,12 @@
     &quot;assignee&quot;: &quot;rostyslavnov&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/rostyslavnov/LaborotoriumASP.NET.git&quot;,
-    &quot;accountId&quot;: &quot;ef772af9-0740-4ece-bb9b-0a6324ecda62&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rostyslavnov/LaborotoriumASP.NET.git",
+    "accountId": "8c03ebbe-5b9d-45d5-b60a-a9576422cf12"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,28 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.WebApp: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.WebApp: https.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;D:\\Users\\rostyslav.novytskyi\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;D:\\Users\\rostyslav.novytskyi\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;D:\\Users\\rostyslav.novytskyi\\AppData\\Local\\Symbols\\src&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.WebApp: http.executor": "Run",
+    ".NET Launch Settings Profile.WebApp: https.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "lab4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApp: https">
     <configuration name="WebApp: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
@@ -144,6 +131,7 @@
       <updated>1729004696335</updated>
       <workItem from="1729004697910" duration="4974000" />
       <workItem from="1729609388350" duration="673000" />
+      <workItem from="1730819984025" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="result">
       <option name="closed" value="true" />
@@ -169,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729009645396</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <option name="closed" value="true" />
+      <created>1730819287273</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730819287273</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +201,7 @@
     <MESSAGE value="result" />
     <MESSAGE value="index" />
     <MESSAGE value="gotowe zad1" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>

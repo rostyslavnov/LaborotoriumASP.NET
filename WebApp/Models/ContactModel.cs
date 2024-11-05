@@ -1,5 +1,5 @@
+﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Mvc;
 
 namespace WebApp.Models
 {
@@ -7,25 +7,35 @@ namespace WebApp.Models
     {
         [HiddenInput]
         public int Id { get; set; }
-
         [Required]
-        [MaxLength(20, ErrorMessage = "Imię nie może być większe niż 20 znaków")]
-        [MinLength(2, ErrorMessage = "Imię musi mieć co najmniej 2 znaki!")]
+        [MaxLength(length: 20, ErrorMessage = "More then 20 characters is not allowed")]
+        [MinLength(length: 2, ErrorMessage = "Less then 20 characters is not allowed")]
+        [Display(Name = "Imię")]
+
         public string FirstName { get; set; }
-
         [Required]
-        [MaxLength(50, ErrorMessage = "Imię nie może być większe niż 50 znaków")]
-        [MinLength(2, ErrorMessage = "Imię musi mieć co najmniej 2 znaki!")]
+        [MaxLength(length: 50, ErrorMessage = "More then 50 characters is not allowed")]
+        [MinLength(length: 2, ErrorMessage = "Less then 20 characters is not allowed")]
+        [Display(Name = "Nazwisko")]
+
         public string LastName { get; set; }
-
         [EmailAddress]
+        [Display(Name = "Adres e-mail")]
+
         public string Email { get; set; }
-
         [Phone]
-        [RegularExpression(@"\d{3} \d{3} \d{3}", ErrorMessage = "Wpisz numer wg wzoru: xxx xxx xxx")]
-        public string PhoneNumber { get; set; }
+        [RegularExpression(pattern: "\\d{3} \\d{3} \\d{3}", ErrorMessage = "Enter number like this: xxx xxx xxx")]
+        [Display(Name = "Numer telefonu")]
 
+        public string PhoneNumber { get; set; }
         [DataType(DataType.Date)]
+        [Display(Name = "Data urodzenia")]
+
         public DateOnly BirthDate { get; set; }
+
+        [Display(Name = "Kategoria")]
+
+        public Category Category { get; set; }
+
     }
 }

@@ -28,4 +28,35 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+    
+    public IActionResult About()
+    {
+        return View();
+    }
+    
+    public IActionResult Calculator(string op, double x, double y)
+    {
+        ViewBag.x = x;
+        ViewBag.y = y;
+        
+        ViewBag.op = op;
+        
+        switch(op)
+        {
+            case "add":
+                ViewBag.Result = x + y;
+                break;
+            case "sub":
+                ViewBag.Result = x - y;
+                break;
+            case "mul":
+                ViewBag.Result = x * y;
+                break;
+            case "div":
+                ViewBag.Result = x / y;
+                break;
+        }
+        return View();
+    }
+
 }
