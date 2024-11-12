@@ -41,4 +41,9 @@ public class EFConctactService:IContactService
         var entity = _context.Contacts.Find(id);
         return entity != null ? ContactMapper.FromEntity(entity) : null;
     }
+
+    public List<OrganizationEntity> GetOrganization()
+    {
+        return _context.Organizations.ToList();
+    }
 }

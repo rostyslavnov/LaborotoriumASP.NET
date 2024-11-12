@@ -28,12 +28,18 @@ public class ContactEntity
 
     public string PhoneNumber { get; set; }
     [DataType(DataType.Date)]
+    
     [Display(Name = "Data urodzenia")]
-
+    
+    // [Column("birth")]
     public DateOnly BirthDate { get; set; }
 
     [Display(Name = "Kategoria")]
 
     public Category Category { get; set; }
     public DateTime Created { get; set; }
+    
+    public int OrganizationId { get; set; }
+    
+    public OrganizationEntity? Organization { get; set; }
 }

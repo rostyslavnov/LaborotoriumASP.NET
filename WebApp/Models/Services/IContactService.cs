@@ -8,5 +8,6 @@
         List<ContactModel> GetAll();
         ContactModel? GetById(int id);
 
+        List<OrganizationEntity> GetOrganization();
     }
 }

@@ -9,14 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment=")">
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/Services/ContactEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/Services/EFConctactService.cs" afterDir="false" />
+    <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WebApp/Models/OrganizationEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Migrations/20241105170743_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Migrations/20241105170743_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/ContactEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/ContactEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/EFConctactService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/EFConctactService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/IContactService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/IContactService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/MemoryContactService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/MemoryContactService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
     </list>
@@ -31,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab4" />
+        <entry key="$PROJECT_DIR$" value="lab5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,12 +48,12 @@
     &quot;assignee&quot;: &quot;rostyslavnov&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/rostyslavnov/LaborotoriumASP.NET.git&quot;,
-    &quot;accountId&quot;: &quot;8c03ebbe-5b9d-45d5-b60a-a9576422cf12&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rostyslavnov/LaborotoriumASP.NET.git",
+    "accountId": "ef772af9-0740-4ece-bb9b-0a6324ecda62"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/rostyslavnovytskyi/RiderProjects/LaborotoriumASP.NET/WebApp/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -67,7 +73,7 @@
     ".NET Launch Settings Profile.WebApp: http.executor": "Run",
     ".NET Launch Settings Profile.WebApp: https.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lab5",
+    "git-widget-placeholder": "lab6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +81,13 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "D:\\Users\\rostyslav.novytskyi\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "D:\\Users\\rostyslav.novytskyi\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "D:\\Users\\rostyslav.novytskyi\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApp: https">
@@ -141,6 +154,7 @@
       <workItem from="1729004697910" duration="4974000" />
       <workItem from="1729609388350" duration="673000" />
       <workItem from="1730819984025" duration="1028000" />
+      <workItem from="1731427400384" duration="4602000" />
     </task>
     <task id="LOCAL-00001" summary="result">
       <option name="closed" value="true" />
@@ -198,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730821009438</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="koniec gotowe lab5">
+      <option name="closed" value="true" />
+      <created>1730827295228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730827295228</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1">
+      <option name="closed" value="true" />
+      <created>1730827301087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730827301087</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,10 +264,11 @@
     <MESSAGE value="result" />
     <MESSAGE value="index" />
     <MESSAGE value="gotowe zad1" />
-    <MESSAGE value="1" />
     <MESSAGE value="lab4.1" />
     <MESSAGE value="123" />
     <MESSAGE value=")" />
-    <option name="LAST_COMMIT_MESSAGE" value=")" />
+    <MESSAGE value="koniec gotowe lab5" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
