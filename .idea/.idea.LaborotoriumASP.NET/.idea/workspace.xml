@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment="" />
+    <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment="3213">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab5" />
+        <entry key="$PROJECT_DIR$" value="lab6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,12 +40,12 @@
     &quot;assignee&quot;: &quot;rostyslavnov&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rostyslavnov/LaborotoriumASP.NET.git",
-    "accountId": "ef772af9-0740-4ece-bb9b-0a6324ecda62"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rostyslavnov/LaborotoriumASP.NET.git&quot;,
+    &quot;accountId&quot;: &quot;ef772af9-0740-4ece-bb9b-0a6324ecda62&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/rostyslavnovytskyi/RiderProjects/LaborotoriumASP.NET/WebApp/Views/Home/About.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -57,7 +65,7 @@
     ".NET Launch Settings Profile.WebApp: http.executor": "Run",
     ".NET Launch Settings Profile.WebApp: https.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lab6",
+    "git-widget-placeholder": "lab7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -139,6 +147,7 @@
       <workItem from="1729609388350" duration="673000" />
       <workItem from="1730819984025" duration="1028000" />
       <workItem from="1731427400384" duration="4873000" />
+      <workItem from="1732031489116" duration="4941000" />
     </task>
     <task id="LOCAL-00001" summary="result">
       <option name="closed" value="true" />
@@ -228,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731432250748</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="3213">
+      <option name="closed" value="true" />
+      <created>1732031498589</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732031498589</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +288,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="lab6" />
     <MESSAGE value="wf" />
-    <option name="LAST_COMMIT_MESSAGE" value="wf" />
+    <MESSAGE value="3213" />
+    <option name="LAST_COMMIT_MESSAGE" value="3213" />
   </component>
 </project>

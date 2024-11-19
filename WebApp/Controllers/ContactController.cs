@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using WebApp.Models;
 using WebApp.Models.Services;
 
-namespace WebApp.Controllers
-{
+namespace WebApp.Controllers;
+[Authorize]
+    
     public class ContactController : Controller
     {
         
@@ -26,7 +28,6 @@ namespace WebApp.Controllers
         {
             return View(_contactService.GetById(id));
         }
-
         public IActionResult Add()
         {
             ContactModel model = new ContactModel();
@@ -72,4 +73,4 @@ namespace WebApp.Controllers
             return RedirectToAction(nameof(System.Index));
         }
     }
-}
+
