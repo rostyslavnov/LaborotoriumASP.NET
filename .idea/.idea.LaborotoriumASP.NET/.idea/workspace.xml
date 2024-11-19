@@ -9,23 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApp/Models/OrganizationEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaborotoriumASP.NET/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Controllers/ContactController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Migrations/20241105170743_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Migrations/20241105170743_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/ContactMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/ContactModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/ContactEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/ContactEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/EFConctactService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/EFConctactService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/IContactService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/IContactService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Models/Services/MemoryContactService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Models/Services/MemoryContactService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Views/Contact/Add.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="ede97659-c415-4a2e-bf64-d78dcd92a21d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +138,7 @@
       <workItem from="1729004697910" duration="4974000" />
       <workItem from="1729609388350" duration="673000" />
       <workItem from="1730819984025" duration="1028000" />
-      <workItem from="1731427400384" duration="4602000" />
+      <workItem from="1731427400384" duration="4873000" />
     </task>
     <task id="LOCAL-00001" summary="result">
       <option name="closed" value="true" />
@@ -228,7 +212,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730827301087</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lab6">
+      <option name="closed" value="true" />
+      <created>1731432236963</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731432236963</updated>
+    </task>
+    <task id="LOCAL-00011" summary="wf">
+      <option name="closed" value="true" />
+      <created>1731432250748</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731432250748</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +269,8 @@
     <MESSAGE value=")" />
     <MESSAGE value="koniec gotowe lab5" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="lab6" />
+    <MESSAGE value="wf" />
+    <option name="LAST_COMMIT_MESSAGE" value="wf" />
   </component>
 </project>
